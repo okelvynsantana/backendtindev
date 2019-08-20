@@ -24,7 +24,7 @@ io.on('connection', socket => {
     connectedUsers[user] = socket.id;
 });
 
-mongoose.connect('mongodb+srv://doublepeppers:kss046dp@cluster0-tswtt.mongodb.net/omnistack8?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://doublepeppers:kss046dp@doublepeppers-tswtt.azure.mongodb.net/omniStack?retryWrites=true&w=majority', {
     useNewUrlParser: true
 })
 
